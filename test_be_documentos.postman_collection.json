@@ -1,0 +1,42 @@
+{
+	"id": "a5767f04-7ca3-b852-862c-1f186de1e3ed",
+	"name": "test_be_documentos",
+	"description": "",
+	"order": [
+		"c38d564e-3647-1cc5-7c8f-fc74881670bb"
+	],
+	"folders": [
+		{
+			"id": "81790ecc-5362-a583-b924-97d1fff7a9bb",
+			"name": "test_be_documentos",
+			"description": "",
+			"order": [],
+			"owner": "1468404"
+		}
+	],
+	"timestamp": 1488830832135,
+	"owner": "1468404",
+	"public": false,
+	"requests": [
+		{
+			"id": "c38d564e-3647-1cc5-7c8f-fc74881670bb",
+			"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsImVudGl0eUlkIjoiNmNkYTY3NjAtOWFmMC0xMWU2LWE4YzYtOTFiZmIzZWM1NTlkIiwicm9sZXMiOnsiaW52ZXN0b3IiOlsiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiXSwic2VsbGVyIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl19fQ==\n",
+			"url": "dev.mesfix.com:3062/getContractsAndDocuments/12c3fe00-d2ca-11e6-9f7b-4db91616ce70",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a5767f04-7ca3-b852-862c-1f186de1e3ed",
+			"data": null,
+			"dataMode": "params",
+			"name": "dev.mesfix.com:3062/getContractsAndDocuments/12c3fe00-d2ca-11e6-9f7b-4db91616ce70",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1488833202984,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
