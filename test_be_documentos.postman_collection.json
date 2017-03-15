@@ -3,8 +3,7 @@
 	"name": "test_be_documentos",
 	"description": "",
 	"order": [
-		"c38d564e-3647-1cc5-7c8f-fc74881670bb",
-		"d0814295-6927-8352-6cdd-d6d4dddac3ba"
+		"c38d564e-3647-1cc5-7c8f-fc74881670bb"
 	],
 	"folders": [
 		{
@@ -22,42 +21,21 @@
 		{
 			"id": "c38d564e-3647-1cc5-7c8f-fc74881670bb",
 			"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsImVudGl0eUlkIjoiNmNkYTY3NjAtOWFmMC0xMWU2LWE4YzYtOTFiZmIzZWM1NTlkIiwicm9sZXMiOnsiaW52ZXN0b3IiOlsiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiXSwic2VsbGVyIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl19fQ==\n",
-			"url": "dev.mesfix.com:3062/getContractsAndDocuments/12c3fe00-d2ca-11e6-9f7b-4db91616ce70",
-			"pathVariables": {},
+			"url": "dev.mesfix.com:3062/getContractsAndDocuments/9c4eb050-9af0-11e6-a8c6-91bfb3ec559d",
 			"preRequestScript": null,
+			"pathVariables": {},
 			"method": "GET",
-			"collectionId": "a5767f04-7ca3-b852-862c-1f186de1e3ed",
 			"data": null,
 			"dataMode": "params",
-			"name": "dev.mesfix.com:3062/getContractsAndDocuments/12c3fe00-d2ca-11e6-9f7b-4db91616ce70",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1488833202984,
 			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "d0814295-6927-8352-6cdd-d6d4dddac3ba",
-			"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsImVudGl0eUlkIjoiNmNkYTY3NjAtOWFmMC0xMWU2LWE4YzYtOTFiZmIzZWM1NTlkIiwicm9sZXMiOnsiaW52ZXN0b3IiOlsiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiXSwic2VsbGVyIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl19fQ==\n",
-			"url": "dev.mesfix.com:3062/getContractsAndDocuments/12c3fe00-d2ca-11e6-9f7b-4db91616ce70",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "a5767f04-7ca3-b852-862c-1f186de1e3ed",
-			"data": null,
-			"dataMode": "params",
+			"helperAttributes": {},
+			"time": 1489530508850,
 			"name": "dev.mesfix.com:3062/getContractsAndDocuments/12c3fe00-d2ca-11e6-9f7b-4db91616ce70",
 			"description": "",
-			"descriptionFormat": "html",
-			"time": 1488835321024,
-			"version": 2,
-			"responses": [],
-			"tests": "tests[\"Status code is 200\"] = responseCode.code === 500;\n\ntests[\"Response time is less than 200ms\"] = responseTime < 10;\n\ntests[\"Successful POST request\"] = responseCode.code === 201 || responseCode.code === 202;",
-			"currentHelper": "normal",
-			"helperAttributes": {}
+			"collectionId": "a5767f04-7ca3-b852-862c-1f186de1e3ed",
+			"responses": []
 		}
 	]
 }
